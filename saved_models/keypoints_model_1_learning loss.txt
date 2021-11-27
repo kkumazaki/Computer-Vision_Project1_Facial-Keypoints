@@ -1,0 +1,413 @@
+Epoch: 1, Batch: 10, Avg. Loss: 0.17674139216542245
+Epoch: 1, Batch: 20, Avg. Loss: 0.11329011246562004
+Epoch: 1, Batch: 30, Avg. Loss: 0.09462101832032203
+Epoch: 1, Batch: 40, Avg. Loss: 0.09395628347992897
+Epoch: 1, Batch: 50, Avg. Loss: 0.11161803975701332
+Epoch: 1, Batch: 60, Avg. Loss: 0.10004241056740285
+Epoch: 1, Batch: 70, Avg. Loss: 0.09297959581017494
+Epoch: 1, Batch: 80, Avg. Loss: 0.10300170853734017
+Epoch: 1, Batch: 90, Avg. Loss: 0.09925150983035565
+Epoch: 1, Batch: 100, Avg. Loss: 0.0917919971048832
+Epoch: 1, Batch: 110, Avg. Loss: 0.09355759397149085
+Epoch: 1, Batch: 120, Avg. Loss: 0.08819003328680992
+Epoch: 1, Batch: 130, Avg. Loss: 0.08798692375421524
+Epoch: 1, Batch: 140, Avg. Loss: 0.12233283147215843
+Epoch: 1, Batch: 150, Avg. Loss: 0.09863540008664132
+Epoch: 1, Batch: 160, Avg. Loss: 0.10655356645584106
+Epoch: 1, Batch: 170, Avg. Loss: 0.10058195106685161
+Epoch: 1, Batch: 180, Avg. Loss: 0.10388983115553856
+Epoch: 1, Batch: 190, Avg. Loss: 0.10286019556224346
+Epoch: 1, Batch: 200, Avg. Loss: 0.09747883342206479
+Epoch: 1, Batch: 210, Avg. Loss: 0.08740363568067551
+Epoch: 1, Batch: 220, Avg. Loss: 0.10057905539870263
+Epoch: 1, Batch: 230, Avg. Loss: 0.1115849681198597
+Epoch: 1, Batch: 240, Avg. Loss: 0.10186822637915612
+Epoch: 1, Batch: 250, Avg. Loss: 0.08621218651533127
+Epoch: 1, Batch: 260, Avg. Loss: 0.09894643053412437
+Epoch: 1, Batch: 270, Avg. Loss: 0.10771749317646026
+Epoch: 1, Batch: 280, Avg. Loss: 0.09165053591132163
+Epoch: 1, Batch: 290, Avg. Loss: 0.10057345107197761
+Epoch: 1, Batch: 300, Avg. Loss: 0.08029279597103596
+Epoch: 1, Batch: 310, Avg. Loss: 0.09935316666960717
+Epoch: 1, Batch: 320, Avg. Loss: 0.08649021536111831
+Epoch: 1, Batch: 330, Avg. Loss: 0.08898539282381535
+Epoch: 1, Batch: 340, Avg. Loss: 0.10201158821582794
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+Epoch: 2, Batch: 10, Avg. Loss: 0.11358130089938641
+Epoch: 2, Batch: 20, Avg. Loss: 0.09625378362834454
+Epoch: 2, Batch: 30, Avg. Loss: 0.08016245886683464
+Epoch: 2, Batch: 40, Avg. Loss: 0.06112365089356899
+Epoch: 2, Batch: 50, Avg. Loss: 0.09986713007092476
+Epoch: 2, Batch: 60, Avg. Loss: 0.09974719732999801
+Epoch: 2, Batch: 70, Avg. Loss: 0.07748859487473965
+Epoch: 2, Batch: 80, Avg. Loss: 0.10109725967049599
+Epoch: 2, Batch: 90, Avg. Loss: 0.08093540146946906
+Epoch: 2, Batch: 100, Avg. Loss: 0.0677998960018158
+Epoch: 2, Batch: 110, Avg. Loss: 0.07065872959792614
+Epoch: 2, Batch: 120, Avg. Loss: 0.07479897551238537
+Epoch: 2, Batch: 130, Avg. Loss: 0.08528151102364064
+Epoch: 2, Batch: 140, Avg. Loss: 0.08796015493571759
+Epoch: 2, Batch: 150, Avg. Loss: 0.07185372784733772
+Epoch: 2, Batch: 160, Avg. Loss: 0.07018926851451397
+Epoch: 2, Batch: 170, Avg. Loss: 0.06995056383311749
+Epoch: 2, Batch: 180, Avg. Loss: 0.09395058490335942
+Epoch: 2, Batch: 190, Avg. Loss: 0.08918192237615585
+Epoch: 2, Batch: 200, Avg. Loss: 0.08282634317874908
+Epoch: 2, Batch: 210, Avg. Loss: 0.08397505357861519
+Epoch: 2, Batch: 220, Avg. Loss: 0.08588015437126159
+Epoch: 2, Batch: 230, Avg. Loss: 0.07840385586023331
+Epoch: 2, Batch: 240, Avg. Loss: 0.08544402197003365
+Epoch: 2, Batch: 250, Avg. Loss: 0.07381599135696888
+Epoch: 2, Batch: 260, Avg. Loss: 0.090786087885499
+Epoch: 2, Batch: 270, Avg. Loss: 0.09302932061254979
+Epoch: 2, Batch: 280, Avg. Loss: 0.07880877368152142
+Epoch: 2, Batch: 290, Avg. Loss: 0.07988086603581905
+Epoch: 2, Batch: 300, Avg. Loss: 0.0781873157247901
+Epoch: 2, Batch: 310, Avg. Loss: 0.08183697275817395
+Epoch: 2, Batch: 320, Avg. Loss: 0.07284933868795633
+Epoch: 2, Batch: 330, Avg. Loss: 0.07802152000367642
+Epoch: 2, Batch: 340, Avg. Loss: 0.07448436729609967
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+Epoch: 3, Batch: 10, Avg. Loss: 0.09598336555063725
+Epoch: 3, Batch: 20, Avg. Loss: 0.08087207116186619
+Epoch: 3, Batch: 30, Avg. Loss: 0.05937487073242664
+Epoch: 3, Batch: 40, Avg. Loss: 0.06595295034348965
+Epoch: 3, Batch: 50, Avg. Loss: 0.07754398696124554
+Epoch: 3, Batch: 60, Avg. Loss: 0.08565822429955006
+Epoch: 3, Batch: 70, Avg. Loss: 0.07503238841891288
+Epoch: 3, Batch: 80, Avg. Loss: 0.1058048278093338
+Epoch: 3, Batch: 90, Avg. Loss: 0.07190916500985622
+Epoch: 3, Batch: 100, Avg. Loss: 0.07113764174282551
+Epoch: 3, Batch: 110, Avg. Loss: 0.06581734232604504
+Epoch: 3, Batch: 120, Avg. Loss: 0.06952760145068168
+Epoch: 3, Batch: 130, Avg. Loss: 0.11139040552079678
+Epoch: 3, Batch: 140, Avg. Loss: 0.08338099345564842
+Epoch: 3, Batch: 150, Avg. Loss: 0.06545911990106106
+Epoch: 3, Batch: 160, Avg. Loss: 0.07517551816999912
+Epoch: 3, Batch: 170, Avg. Loss: 0.0671171672642231
+Epoch: 3, Batch: 180, Avg. Loss: 0.05778007581830025
+Epoch: 3, Batch: 190, Avg. Loss: 0.07312235087156296
+Epoch: 3, Batch: 200, Avg. Loss: 0.06622762084007264
+Epoch: 3, Batch: 210, Avg. Loss: 0.08004929795861244
+Epoch: 3, Batch: 220, Avg. Loss: 0.07809182219207286
+Epoch: 3, Batch: 230, Avg. Loss: 0.0705112487077713
+Epoch: 3, Batch: 240, Avg. Loss: 0.08522255793213844
+Epoch: 3, Batch: 250, Avg. Loss: 0.08783329427242278
+Epoch: 3, Batch: 260, Avg. Loss: 0.07646489366889
+Epoch: 3, Batch: 270, Avg. Loss: 0.07500082962214946
+Epoch: 3, Batch: 280, Avg. Loss: 0.0846901684999466
+Epoch: 3, Batch: 290, Avg. Loss: 0.06185212917625904
+Epoch: 3, Batch: 300, Avg. Loss: 0.06925374418497085
+Epoch: 3, Batch: 310, Avg. Loss: 0.0692140031605959
+Epoch: 3, Batch: 320, Avg. Loss: 0.10118578784167767
+Epoch: 3, Batch: 330, Avg. Loss: 0.06982176937162876
+Epoch: 3, Batch: 340, Avg. Loss: 0.07792913317680358
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+Epoch: 4, Batch: 10, Avg. Loss: 0.07021510861814022
+Epoch: 4, Batch: 20, Avg. Loss: 0.07186988927423954
+Epoch: 4, Batch: 30, Avg. Loss: 0.079178361967206
+Epoch: 4, Batch: 40, Avg. Loss: 0.06477306969463825
+Epoch: 4, Batch: 50, Avg. Loss: 0.0787111010402441
+Epoch: 4, Batch: 60, Avg. Loss: 0.08131248317658901
+Epoch: 4, Batch: 70, Avg. Loss: 0.07022245116531849
+Epoch: 4, Batch: 80, Avg. Loss: 0.0957756631076336
+Epoch: 4, Batch: 90, Avg. Loss: 0.08093165569007396
+Epoch: 4, Batch: 100, Avg. Loss: 0.06482088565826416
+Epoch: 4, Batch: 110, Avg. Loss: 0.08296770192682743
+Epoch: 4, Batch: 120, Avg. Loss: 0.056867613643407824
+Epoch: 4, Batch: 130, Avg. Loss: 0.0807863699272275
+Epoch: 4, Batch: 140, Avg. Loss: 0.06582116708159447
+Epoch: 4, Batch: 150, Avg. Loss: 0.07112460136413574
+Epoch: 4, Batch: 160, Avg. Loss: 0.05683818999677896
+Epoch: 4, Batch: 170, Avg. Loss: 0.07238578386604785
+Epoch: 4, Batch: 180, Avg. Loss: 0.07050534226000309
+Epoch: 4, Batch: 190, Avg. Loss: 0.0917663998901844
+Epoch: 4, Batch: 200, Avg. Loss: 0.06676582247018814
+Epoch: 4, Batch: 210, Avg. Loss: 0.058560016378760335
+Epoch: 4, Batch: 220, Avg. Loss: 0.06961552742868662
+Epoch: 4, Batch: 230, Avg. Loss: 0.07731890678405762
+Epoch: 4, Batch: 240, Avg. Loss: 0.09132674913853407
+Epoch: 4, Batch: 250, Avg. Loss: 0.07064531948417425
+Epoch: 4, Batch: 260, Avg. Loss: 0.08351050168275834
+Epoch: 4, Batch: 270, Avg. Loss: 0.08602389134466648
+Epoch: 4, Batch: 280, Avg. Loss: 0.06599276401102543
+Epoch: 4, Batch: 290, Avg. Loss: 0.06387629099190235
+Epoch: 4, Batch: 300, Avg. Loss: 0.06652650386095046
+Epoch: 4, Batch: 310, Avg. Loss: 0.07823644168674945
+Epoch: 4, Batch: 320, Avg. Loss: 0.0751324824988842
+Epoch: 4, Batch: 330, Avg. Loss: 0.09497358910739422
+Epoch: 4, Batch: 340, Avg. Loss: 0.06549825072288513
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+Epoch: 5, Batch: 10, Avg. Loss: 0.06692789942026138
+Epoch: 5, Batch: 20, Avg. Loss: 0.07831937111914158
+Epoch: 5, Batch: 30, Avg. Loss: 0.06999763585627079
+Epoch: 5, Batch: 40, Avg. Loss: 0.06906950660049915
+Epoch: 5, Batch: 50, Avg. Loss: 0.0753268375992775
+Epoch: 5, Batch: 60, Avg. Loss: 0.05617644768208265
+Epoch: 5, Batch: 70, Avg. Loss: 0.05997975058853626
+Epoch: 5, Batch: 80, Avg. Loss: 0.08383907340466976
+Epoch: 5, Batch: 90, Avg. Loss: 0.06455973871052265
+Epoch: 5, Batch: 100, Avg. Loss: 0.07653059549629689
+Epoch: 5, Batch: 110, Avg. Loss: 0.06143135614693165
+Epoch: 5, Batch: 120, Avg. Loss: 0.07709416151046752
+Epoch: 5, Batch: 130, Avg. Loss: 0.10437061563134194
+Epoch: 5, Batch: 140, Avg. Loss: 0.0744340542703867
+Epoch: 5, Batch: 150, Avg. Loss: 0.0743839267641306
+Epoch: 5, Batch: 160, Avg. Loss: 0.05273078382015228
+Epoch: 5, Batch: 170, Avg. Loss: 0.06137282662093639
+Epoch: 5, Batch: 180, Avg. Loss: 0.09279250688850879
+Epoch: 5, Batch: 190, Avg. Loss: 0.07183722034096718
+Epoch: 5, Batch: 200, Avg. Loss: 0.06422879546880722
+Epoch: 5, Batch: 210, Avg. Loss: 0.05953492559492588
+Epoch: 5, Batch: 220, Avg. Loss: 0.05435821861028671
+Epoch: 5, Batch: 230, Avg. Loss: 0.05756983011960983
+Epoch: 5, Batch: 240, Avg. Loss: 0.07053014487028123
+Epoch: 5, Batch: 250, Avg. Loss: 0.07289530374109746
+Epoch: 5, Batch: 260, Avg. Loss: 0.09246139824390412
+Epoch: 5, Batch: 270, Avg. Loss: 0.07586134523153305
+Epoch: 5, Batch: 280, Avg. Loss: 0.0529399037361145
+Epoch: 5, Batch: 290, Avg. Loss: 0.0752159845083952
+Epoch: 5, Batch: 300, Avg. Loss: 0.059111599996685985
+Epoch: 5, Batch: 310, Avg. Loss: 0.0507928553968668
+Epoch: 5, Batch: 320, Avg. Loss: 0.07600300610065461
+Epoch: 5, Batch: 330, Avg. Loss: 0.06789699234068394
+Epoch: 5, Batch: 340, Avg. Loss: 0.08221861235797405
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+Epoch: 6, Batch: 10, Avg. Loss: 0.0640106612816453
+Epoch: 6, Batch: 20, Avg. Loss: 0.07202819846570492
+Epoch: 6, Batch: 30, Avg. Loss: 0.06446104850620031
+Epoch: 6, Batch: 40, Avg. Loss: 0.0472468975931406
+Epoch: 6, Batch: 50, Avg. Loss: 0.055589597299695016
+Epoch: 6, Batch: 60, Avg. Loss: 0.05517927035689354
+Epoch: 6, Batch: 70, Avg. Loss: 0.07150116041302682
+Epoch: 6, Batch: 80, Avg. Loss: 0.06288372352719307
+Epoch: 6, Batch: 90, Avg. Loss: 0.08537522405385971
+Epoch: 6, Batch: 100, Avg. Loss: 0.05339583214372397
+Epoch: 6, Batch: 110, Avg. Loss: 0.06616761572659016
+Epoch: 6, Batch: 120, Avg. Loss: 0.0623548150062561
+Epoch: 6, Batch: 130, Avg. Loss: 0.08997392803430557
+Epoch: 6, Batch: 140, Avg. Loss: 0.06352072712033988
+Epoch: 6, Batch: 150, Avg. Loss: 0.05854334533214569
+Epoch: 6, Batch: 160, Avg. Loss: 0.06156402509659529
+Epoch: 6, Batch: 170, Avg. Loss: 0.06116847805678845
+Epoch: 6, Batch: 180, Avg. Loss: 0.06744977701455354
+Epoch: 6, Batch: 190, Avg. Loss: 0.05038305297493935
+Epoch: 6, Batch: 200, Avg. Loss: 0.05438041463494301
+Epoch: 6, Batch: 210, Avg. Loss: 0.07383476570248604
+Epoch: 6, Batch: 220, Avg. Loss: 0.05009539648890495
+Epoch: 6, Batch: 230, Avg. Loss: 0.04092632569372654
+Epoch: 6, Batch: 240, Avg. Loss: 0.057029962353408334
+Epoch: 6, Batch: 250, Avg. Loss: 0.05580511726438999
+Epoch: 6, Batch: 260, Avg. Loss: 0.06858794912695884
+Epoch: 6, Batch: 270, Avg. Loss: 0.06768262460827827
+Epoch: 6, Batch: 280, Avg. Loss: 0.06942360512912274
+Epoch: 6, Batch: 290, Avg. Loss: 0.05373594462871552
+Epoch: 6, Batch: 300, Avg. Loss: 0.05894894227385521
+Epoch: 6, Batch: 310, Avg. Loss: 0.06354935728013515
+Epoch: 6, Batch: 320, Avg. Loss: 0.06068064961582422
+Epoch: 6, Batch: 330, Avg. Loss: 0.052574480324983595
+Epoch: 6, Batch: 340, Avg. Loss: 0.06863285023719072
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+Epoch: 7, Batch: 10, Avg. Loss: 0.0692790288478136
+Epoch: 7, Batch: 20, Avg. Loss: 0.06201439574360847
+Epoch: 7, Batch: 30, Avg. Loss: 0.055185236223042014
+Epoch: 7, Batch: 40, Avg. Loss: 0.06339880097657442
+Epoch: 7, Batch: 50, Avg. Loss: 0.04705965630710125
+Epoch: 7, Batch: 60, Avg. Loss: 0.06391006000339985
+Epoch: 7, Batch: 70, Avg. Loss: 0.04561100285500288
+Epoch: 7, Batch: 80, Avg. Loss: 0.058482641354203224
+Epoch: 7, Batch: 90, Avg. Loss: 0.044848383963108064
+Epoch: 7, Batch: 100, Avg. Loss: 0.05183852575719357
+Epoch: 7, Batch: 110, Avg. Loss: 0.05188159011304379
+Epoch: 7, Batch: 120, Avg. Loss: 0.07604768257588149
+Epoch: 7, Batch: 130, Avg. Loss: 0.04448518417775631
+Epoch: 7, Batch: 140, Avg. Loss: 0.0414833415299654
+Epoch: 7, Batch: 150, Avg. Loss: 0.05942054521292448
+Epoch: 7, Batch: 160, Avg. Loss: 0.043901022709906104
+Epoch: 7, Batch: 170, Avg. Loss: 0.053795932233333586
+Epoch: 7, Batch: 180, Avg. Loss: 0.05397640634328127
+Epoch: 7, Batch: 190, Avg. Loss: 0.047356445156037805
+Epoch: 7, Batch: 200, Avg. Loss: 0.055868367291986944
+Epoch: 7, Batch: 210, Avg. Loss: 0.059740488231182096
+Epoch: 7, Batch: 220, Avg. Loss: 0.08047212399542332
+Epoch: 7, Batch: 230, Avg. Loss: 0.05061790440231562
+Epoch: 7, Batch: 240, Avg. Loss: 0.06551022231578826
+Epoch: 7, Batch: 250, Avg. Loss: 0.05230729039758444
+Epoch: 7, Batch: 260, Avg. Loss: 0.0561430973932147
+Epoch: 7, Batch: 270, Avg. Loss: 0.04395061079412699
+Epoch: 7, Batch: 280, Avg. Loss: 0.05941512044519186
+Epoch: 7, Batch: 290, Avg. Loss: 0.05337145254015922
+Epoch: 7, Batch: 300, Avg. Loss: 0.03631138149648905
+Epoch: 7, Batch: 310, Avg. Loss: 0.06081204116344452
+Epoch: 7, Batch: 320, Avg. Loss: 0.04678629226982593
+Epoch: 7, Batch: 330, Avg. Loss: 0.04797786474227905
+Epoch: 7, Batch: 340, Avg. Loss: 0.07511566281318664
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+Epoch: 8, Batch: 10, Avg. Loss: 0.07559738159179688
+Epoch: 8, Batch: 20, Avg. Loss: 0.05856969654560089
+Epoch: 8, Batch: 30, Avg. Loss: 0.051939679123461244
+Epoch: 8, Batch: 40, Avg. Loss: 0.04801273159682751
+Epoch: 8, Batch: 50, Avg. Loss: 0.054517019726336005
+Epoch: 8, Batch: 60, Avg. Loss: 0.04693012647330761
+Epoch: 8, Batch: 70, Avg. Loss: 0.04370335955172777
+Epoch: 8, Batch: 80, Avg. Loss: 0.05769575871527195
+Epoch: 8, Batch: 90, Avg. Loss: 0.05051679778844118
+Epoch: 8, Batch: 100, Avg. Loss: 0.04047311171889305
+Epoch: 8, Batch: 110, Avg. Loss: 0.051200588978827
+Epoch: 8, Batch: 120, Avg. Loss: 0.05278226099908352
+Epoch: 8, Batch: 130, Avg. Loss: 0.04547295793890953
+Epoch: 8, Batch: 140, Avg. Loss: 0.038918448984622954
+Epoch: 8, Batch: 150, Avg. Loss: 0.0374475447461009
+Epoch: 8, Batch: 160, Avg. Loss: 0.03725049514323473
+Epoch: 8, Batch: 170, Avg. Loss: 0.04442874360829592
+Epoch: 8, Batch: 180, Avg. Loss: 0.056217467039823533
+Epoch: 8, Batch: 190, Avg. Loss: 0.05836138594895601
+Epoch: 8, Batch: 200, Avg. Loss: 0.049513154476881024
+Epoch: 8, Batch: 210, Avg. Loss: 0.047458932548761365
+Epoch: 8, Batch: 220, Avg. Loss: 0.05190850496292114
+Epoch: 8, Batch: 230, Avg. Loss: 0.04222235158085823
+Epoch: 8, Batch: 240, Avg. Loss: 0.04516917522996664
+Epoch: 8, Batch: 250, Avg. Loss: 0.04812628533691168
+Epoch: 8, Batch: 260, Avg. Loss: 0.04580705026164651
+Epoch: 8, Batch: 270, Avg. Loss: 0.044869359210133554
+Epoch: 8, Batch: 280, Avg. Loss: 0.04577053692191839
+Epoch: 8, Batch: 290, Avg. Loss: 0.04318993706256151
+Epoch: 8, Batch: 300, Avg. Loss: 0.04522893577814102
+Epoch: 8, Batch: 310, Avg. Loss: 0.04307247903198004
+Epoch: 8, Batch: 320, Avg. Loss: 0.040385160408914086
+Epoch: 8, Batch: 330, Avg. Loss: 0.04618164300918579
+Epoch: 8, Batch: 340, Avg. Loss: 0.05097636599093676
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+Epoch: 9, Batch: 10, Avg. Loss: 0.036053736321628095
+Epoch: 9, Batch: 20, Avg. Loss: 0.05652173962444067
+Epoch: 9, Batch: 30, Avg. Loss: 0.04663437195122242
+Epoch: 9, Batch: 40, Avg. Loss: 0.032636622339487074
+Epoch: 9, Batch: 50, Avg. Loss: 0.0427842989563942
+Epoch: 9, Batch: 60, Avg. Loss: 0.044751761853694914
+Epoch: 9, Batch: 70, Avg. Loss: 0.042535530589520934
+Epoch: 9, Batch: 80, Avg. Loss: 0.04086481612175703
+Epoch: 9, Batch: 90, Avg. Loss: 0.040508448891341683
+Epoch: 9, Batch: 100, Avg. Loss: 0.054742895253002646
+Epoch: 9, Batch: 110, Avg. Loss: 0.06613710410892963
+Epoch: 9, Batch: 120, Avg. Loss: 0.048802702501416204
+Epoch: 9, Batch: 130, Avg. Loss: 0.044918406568467614
+Epoch: 9, Batch: 140, Avg. Loss: 0.04622319303452969
+Epoch: 9, Batch: 150, Avg. Loss: 0.046468711271882054
+Epoch: 9, Batch: 160, Avg. Loss: 0.04841334261000156
+Epoch: 9, Batch: 170, Avg. Loss: 0.04009750047698617
+Epoch: 9, Batch: 180, Avg. Loss: 0.046348347887396814
+Epoch: 9, Batch: 190, Avg. Loss: 0.04585100263357163
+Epoch: 9, Batch: 200, Avg. Loss: 0.04479892235249281
+Epoch: 9, Batch: 210, Avg. Loss: 0.03625088538974523
+Epoch: 9, Batch: 220, Avg. Loss: 0.03387143108993769
+Epoch: 9, Batch: 230, Avg. Loss: 0.04058433622121811
+Epoch: 9, Batch: 240, Avg. Loss: 0.04598517194390297
+Epoch: 9, Batch: 250, Avg. Loss: 0.03864194992929697
+Epoch: 9, Batch: 260, Avg. Loss: 0.042198722064495084
+Epoch: 9, Batch: 270, Avg. Loss: 0.03750404827296734
+Epoch: 9, Batch: 280, Avg. Loss: 0.05326513219624758
+Epoch: 9, Batch: 290, Avg. Loss: 0.041882726922631265
+Epoch: 9, Batch: 300, Avg. Loss: 0.058918986655771735
+Epoch: 9, Batch: 310, Avg. Loss: 0.04567478131502867
+Epoch: 9, Batch: 320, Avg. Loss: 0.057191670127213004
+Epoch: 9, Batch: 330, Avg. Loss: 0.038696959428489205
+Epoch: 9, Batch: 340, Avg. Loss: 0.04656114503741264
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+/home/workspace/data_load.py:39: FutureWarning: Method .as_matrix will be removed in a future version. Use .values instead.
+  key_pts = self.key_pts_frame.iloc[idx, 1:].as_matrix()
+Epoch: 10, Batch: 10, Avg. Loss: 0.04750430434942245
+Epoch: 10, Batch: 20, Avg. Loss: 0.04512406103312969
+Epoch: 10, Batch: 30, Avg. Loss: 0.03882265910506248
+Epoch: 10, Batch: 40, Avg. Loss: 0.0348961878567934
+Epoch: 10, Batch: 50, Avg. Loss: 0.039852173253893855
+Epoch: 10, Batch: 60, Avg. Loss: 0.03277127649635077
+Epoch: 10, Batch: 70, Avg. Loss: 0.03852198049426079
+Epoch: 10, Batch: 80, Avg. Loss: 0.04288496859371662
+Epoch: 10, Batch: 90, Avg. Loss: 0.0564358539879322
+Epoch: 10, Batch: 100, Avg. Loss: 0.0452291926369071
+Epoch: 10, Batch: 110, Avg. Loss: 0.03561379378661513
+Epoch: 10, Batch: 120, Avg. Loss: 0.041184008680284025
+Epoch: 10, Batch: 130, Avg. Loss: 0.034841665625572206
+Epoch: 10, Batch: 140, Avg. Loss: 0.046884885802865026
+Epoch: 10, Batch: 150, Avg. Loss: 0.050827807188034056
+Epoch: 10, Batch: 160, Avg. Loss: 0.042360705137252805
+Epoch: 10, Batch: 170, Avg. Loss: 0.06675879247486591
+Epoch: 10, Batch: 180, Avg. Loss: 0.034008979052305224
+Epoch: 10, Batch: 190, Avg. Loss: 0.04080089796334505
+Epoch: 10, Batch: 200, Avg. Loss: 0.04002614375203848
+Epoch: 10, Batch: 210, Avg. Loss: 0.04582393690943718
+Epoch: 10, Batch: 220, Avg. Loss: 0.04101350847631693
+Epoch: 10, Batch: 230, Avg. Loss: 0.04622919969260693
+Epoch: 10, Batch: 240, Avg. Loss: 0.04665367174893618
+Epoch: 10, Batch: 250, Avg. Loss: 0.04340648483484984
+Epoch: 10, Batch: 260, Avg. Loss: 0.048283721506595614
+Epoch: 10, Batch: 270, Avg. Loss: 0.04851138293743133
+Epoch: 10, Batch: 280, Avg. Loss: 0.041160624101758005
+Epoch: 10, Batch: 290, Avg. Loss: 0.03718272987753153
+Epoch: 10, Batch: 300, Avg. Loss: 0.030973988957703112
+Epoch: 10, Batch: 310, Avg. Loss: 0.03780556432902813
+Epoch: 10, Batch: 320, Avg. Loss: 0.04387671984732151
+Epoch: 10, Batch: 330, Avg. Loss: 0.040792880579829216
+Epoch: 10, Batch: 340, Avg. Loss: 0.037561635673046115
+Finished Training

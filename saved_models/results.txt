@@ -1,0 +1,42 @@
+[keypoint_model_1]
+
+result:Loss was very small (less than 0.04).
+       However, it's overfitting so that test result was bad.
+       Need modification!
+
+architecture: NaimishNet
+ Net(
+  (conv1): Conv2d(1, 32, kernel_size=(4, 4), stride=(1, 1))
+  (pool1): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (drop1): Dropout(p=0.1)
+  (conv2): Conv2d(32, 64, kernel_size=(3, 3), stride=(1, 1))
+  (pool2): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (drop2): Dropout(p=0.2)
+  (conv3): Conv2d(64, 128, kernel_size=(2, 2), stride=(1, 1))
+  (pool3): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (drop3): Dropout(p=0.3)
+  (conv4): Conv2d(128, 256, kernel_size=(1, 1), stride=(1, 1))
+  (pool4): MaxPool2d(kernel_size=2, stride=2, padding=0, dilation=1, ceil_mode=False)
+  (drop4): Dropout(p=0.4)
+  (fc1): Linear(in_features=43264, out_features=1000, bias=True)
+  (drop5): Dropout(p=0.5)
+  (fc2): Linear(in_features=1000, out_features=1000, bias=True)
+  (drop6): Dropout(p=0.6)
+  (fc3): Linear(in_features=1000, out_features=136, bias=True)
+)
+
+settings:
+ n_epochs = 10
+ criterion = nn.SmoothL1Loss() 
+ optimizer = optim.Adam(net.parameters(), lr = 0.001)
+
+
+
+[keypoint_model_2]
+
+result:
+
+architecture: Decrease layers of NaimishNet
+ Net(
+***
+
