@@ -64,33 +64,33 @@ class Net(nn.Module):
 
         # 7 input image channel (grayscale), output channels/feature maps, square convolution kernel
         # Layer Shape: [128, 53, 53]
-        #self.conv3 = nn.Conv2d(64, 128, 2)
+        self.conv3 = nn.Conv2d(64, 128, 2)
 
         # 8 Maxpooling
         # Layer Shape: [128, 26, 26]
-        #self.pool3 = nn.MaxPool2d(2, 2)
+        self.pool3 = nn.MaxPool2d(2, 2)
 
         # 9 dropout with p=0.5
         # Layer Shape: [128, 26, 26]
-        #self.drop3 = nn.Dropout(p=p3)
+        self.drop3 = nn.Dropout(p=p3)
 
         # 10 input image channel (grayscale), output channels/feature maps, square convolution kernel
         # Layer Shape: [256, 26, 26]
-        #self.conv4 = nn.Conv2d(128, 256, 1)
+        self.conv4 = nn.Conv2d(128, 256, 1)
 
         # 11 Maxpooling
         # Layer Shape: [256, 13, 13]
-        #self.pool4 = nn.MaxPool2d(2, 2)
+        self.pool4 = nn.MaxPool2d(2, 2)
 
         # 12 dropout with p=0.5
         # Layer Shape: [256, 13, 13]
-        #self.drop4 = nn.Dropout(p=p4)
+        self.drop4 = nn.Dropout(p=p4)
 
         # 13 outputs * the 5*5 filtered/pooled map size
         # Layer Shape: [256 * 13 * 13] --> [1000]
-        #self.fc1 = nn.Linear(256*13*13, 1000)
+        self.fc1 = nn.Linear(256*13*13, 1000)
         # Layer Shape: [64 * 54 * 54] --> [10000]
-        self.fc1 = nn.Linear(64*54*54, 10000)
+        #self.fc1 = nn.Linear(64*54*54, 10000) # too big and memory error
 
         # 14 dropout with p=0.5
         # Layer Shape: [1000]
@@ -100,7 +100,7 @@ class Net(nn.Module):
         # Layer Shape: [1000] --> [1000]
         #self.fc2 = nn.Linear(1000, 1000)
         # Layer Shape: [10000] --> [1000]
-        self.fc2 = nn.Linear(10000, 1000)
+        self.fc2 = nn.Linear(10000, 1000) # no need after changing fc1
 
         # 1:6 dropout with p=0.5
         # Layer Shape: [1000]
@@ -133,16 +133,16 @@ class Net(nn.Module):
         x = self.drop2(x)
 
         # conv/relu + pool layers
-        #x = self.pool3(F.relu(self.conv3(x)))
+        x = self.pool3(F.relu(self.conv3(x)))
 
         # dropout
-        #x = self.drop3(x)
+        x = self.drop3(x)
 
         # conv/relu + pool layers
-        #x = self.pool4(F.relu(self.conv4(x)))       
+        x = self.pool4(F.relu(self.conv4(x)))       
 
         # dropout
-        #x = self.drop4(x)
+        x = self.drop4(x)
 
         # prep for linear layer
         # this line of code is the equivalent of Flatten in Keras
@@ -153,8 +153,8 @@ class Net(nn.Module):
         x = self.drop5(x)
 
         # linear layers with dropout in between
-        x = F.relu(self.fc2(x))
-        x = self.drop6(x)
+        #x = F.relu(self.fc2(x))
+        #x = self.drop6(x)
 
         # finally, create 2 output channels (for the 2 classes of Keypoint: x, y)
         x = self.fc3(x) 
